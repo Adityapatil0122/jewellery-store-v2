@@ -1,0 +1,68 @@
+export const products = [
+  {
+    id: 'ring-001',
+    name: 'Minimal Gold Ring',
+    price: 2499,
+    desc: 'Elegant daily-wear gold ring.',
+    category: 'Rings',
+    img: '/assets/minimal-gold-ring.svg',
+  },
+  {
+    id: 'ring-002',
+    name: 'Rose Stone Ring',
+    price: 3199,
+    desc: 'Subtle sparkle with rose crystal.',
+    category: 'Rings',
+    img: '/assets/rose-stone-ring.svg',
+  },
+  {
+    id: 'neck-001',
+    name: 'Pearl Drop Necklace',
+    price: 4299,
+    desc: 'Classic pearl-inspired drop style.',
+    category: 'Necklaces',
+    img: '/assets/pearl-drop-necklace.svg',
+  },
+  {
+    id: 'neck-002',
+    name: 'Emerald Line Necklace',
+    price: 5599,
+    desc: 'Refined green stone statement piece.',
+    category: 'Necklaces',
+    img: '/assets/emerald-line-necklace.svg',
+  },
+  {
+    id: 'ear-001',
+    name: 'Classic Hoop Earrings',
+    price: 1899,
+    desc: 'Lightweight hoops for daily style.',
+    category: 'Earrings',
+    img: '/assets/classic-hoop-earrings.svg',
+  },
+  {
+    id: 'ear-002',
+    name: 'Star Diamond Studs',
+    price: 2799,
+    desc: 'Compact studs with star brilliance.',
+    category: 'Earrings',
+    img: '/assets/star-diamond-studs.svg',
+  },
+  {
+    id: 'brace-001',
+    name: 'Sleek Chain Bracelet',
+    price: 2299,
+    desc: 'Minimal chain with premium finish.',
+    category: 'Bracelets',
+    img: '/assets/sleek-chain-bracelet.svg',
+  },
+  {
+    id: 'brace-002',
+    name: 'Charm Gold Bracelet',
+    price: 2999,
+    desc: 'Stylish charms in warm gold tone.',
+    category: 'Bracelets',
+    img: '/assets/charm-gold-bracelet.svg',
+  },
+]
+
+export const CATEGORIES = ['All', ...new Set(products.map((p) => p.category))]
